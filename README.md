@@ -1,0 +1,1 @@
+# scrapper_pokemon_cards
