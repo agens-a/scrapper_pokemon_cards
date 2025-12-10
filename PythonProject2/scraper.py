@@ -1,6 +1,3 @@
-import requests
-from bs4 import BeautifulSoup
-import schedule
 import os
 import pandas as pd
 from selenium import webdriver
@@ -118,4 +115,5 @@ df = pd.json_normalize(all_cards)
 df.to_csv("pokemon_cards.csv",
           mode='a' if os.path.exists("pokemon_cards.csv")
           else 'w', index=False, encoding="utf-8", sep=";")
+
 
