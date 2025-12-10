@@ -119,5 +119,3 @@ df.to_csv("pokemon_cards.csv",
           mode='a' if os.path.exists("pokemon_cards.csv")
           else 'w', index=False, encoding="utf-8", sep=";")
 
-
-#os.system("shutdown /s /f /t 5")
