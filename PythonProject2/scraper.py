@@ -1,3 +1,6 @@
+import requests
+from bs4 import BeautifulSoup
+import schedule
 import os
 import pandas as pd
 from selenium import webdriver
@@ -117,3 +120,4 @@ df.to_csv("pokemon_cards.csv",
           else 'w', index=False, encoding="utf-8", sep=";")
 
 
+#os.system("shutdown /s /f /t 5")
